@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inspire IIT & NEET Foundation — Connected Learning Platform</title>
+  <meta name="description" content="From video lessons and online classes to assessments, results, and student performance, Inspire brings the complete academic learning experience into one connected platform.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       NAVBAR
+       ====================================================================== -->
+  <header class="navbar-wrapper">
+    <div class="container navbar">
+      <a href="#home" class="brand-logo-link" aria-label="Inspire IIT & NEET Foundation Home">
+        <img src="assets/logo.png" alt="Inspire IIT & NEET Foundation Logo" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#why-us" class="nav-link">Why Us</a>
+        <a href="#platform" class="nav-link">Platform</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#programs" class="nav-link">Programs</a>
+        <a href="#for-students" class="nav-link" data-nav-role="students">For Students</a>
+        <a href="#for-students" class="nav-link" data-nav-role="teachers">For Teachers</a>
+        <a href="#for-students" class="nav-link" data-nav-role="schools">For Schools</a>
+      </nav>
+
+      <!-- CTA & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-primary btn-sm" data-action="login">
+          <span class="btn-text-full">Login to Inspire</span>
+          <span class="btn-text-short">Login</span>
+        </a>
+        <button class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Backdrop & Drawer -->
+    <div class="mobile-nav-backdrop"></div>
+    <div class="mobile-nav-drawer" aria-label="Mobile Navigation">
+      <div class="mobile-nav-links-wrap">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About Us</a>
+        <a href="#why-us" class="mobile-nav-link">Why Us</a>
+        <a href="#platform" class="mobile-nav-link">Platform</a>
+        <a href="#features" class="mobile-nav-link">Features</a>
+        <a href="#programs" class="mobile-nav-link">Programs</a>
+        <a href="#for-students" class="mobile-nav-link" data-nav-role="students">For Students</a>
+        <a href="#for-students" class="mobile-nav-link" data-nav-role="teachers">For Teachers</a>
+        <a href="#for-students" class="mobile-nav-link" data-nav-role="schools">For Schools</a>
+      </div>
+      <div class="mobile-nav-drawer-cta">
+        <a href="login.html" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center; height: 48px;">Login to Inspire</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         SECTION 1 — HERO SECTION
+         ====================================================================== -->
+    <section id="home" class="hero-section">
+      <canvas id="hero-network-canvas"></canvas>
+      <div class="hero-glow-bg"></div>
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content (Strict Locked Copy) -->
+          <div class="hero-content">
+            <div class="hero-audience-tag">
+              <span>For Students</span>
+              <span class="dot">•</span>
+              <span>Teachers</span>
+              <span class="dot">•</span>
+              <span>Schools</span>
+            </div>
+
+            <h1 class="hero-title">
+              <span class="hero-title-line">Inspiring Young Minds.</span>
+              <span class="hero-title-line">Building Strong Foundations.</span>
+              <span class="hero-title-line accent-orange">Shaping Future Ranks.</span>
+            </h1>
+
+            <p class="hero-description">
+              Inspire IIT &amp; NEET Foundation is committed to helping students build strong academic foundations, develop analytical thinking and problem-solving skills, and prepare confidently for competitive examinations.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#login" class="btn btn-primary btn-lg" data-action="login">Login to Inspire</a>
+              <a href="#about" class="btn btn-secondary btn-lg">Explore About Us</a>
+            </div>
+          </div>
+
+          <!-- Hero Visual Composition (Uncluttered 3D Layered Academic Stage) -->
+          <div class="hero-stage-wrapper">
+            
+            <!-- Satellite Card 1: Assessments & Performance (Top Right Floating) -->
+            <div class="satellite-card satellite-card-top" data-parallax="18">
+              <div class="satellite-icon-box orange">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              </div>
+              <div class="satellite-text-group">
+                <div class="satellite-title">Assessments & Results</div>
+                <div class="satellite-sub">Performance Analytics Active</div>
+              </div>
+              <div class="satellite-trend-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                <span>Scores & Accuracy</span>
+              </div>
+            </div>
+
+            <!-- Central Main Stage Window -->
+            <div class="hero-dashboard-container">
+              <div class="stage-window-frame">
+                
+                <!-- Window Title Bar with Mac-style Dots -->
+                <div class="stage-window-header">
+                  <div class="window-dots">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                  </div>
+                  <div class="window-title">Inspire Academic Portal</div>
+                  <div class="window-status-pill">
+                    <span class="status-dot-pulse"></span>
+                    <span>Live Academic Sync</span>
+                  </div>
+                </div>
+
+                <!-- Academic Learning Environment Showcase View -->
+                <div class="stage-player-card">
+                  <img src="assets/hero-students.jpg" alt="Inspire IIT &amp; NEET Foundation Academic Learning Environment" class="stage-player-img" loading="eager">
+                </div>
+
+                <!-- Online Classes & Scheduled Sessions Control Bar -->
+                <div class="stage-bottom-bar">
+                  <div class="stage-session-info">
+                    <div class="session-icon-circle">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    </div>
+                    <div>
+                      <div class="session-name">Online Classes & Scheduled Sessions</div>
+                      <div class="session-sub">Interactive Online Classroom & Reminders</div>
+                    </div>
+                  </div>
+
+                  <div class="session-actions">
+                    <a href="login.html" class="stage-join-btn" id="hero-join-btn">
+                      <span>Join Session</span>
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <span id="hero-reminder-status" class="session-reminder-badge">Live Now</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Satellite Card 2: AI Doubt Support & Smart Recommendations (Bottom Left Floating) -->
+            <div class="satellite-card satellite-card-bottom" data-parallax="-18">
+              <div class="satellite-icon-box blue" id="hero-doubt-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              </div>
+              <div class="satellite-text-group">
+                <div class="satellite-title">Smart Recommendations & AI Doubt Support</div>
+                <div class="satellite-sub">Activity-Based Suggestions & Instant Guidance</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION: ABOUT US — EMPOWERING CONCEPTUAL EXCELLENCE
+         ====================================================================== -->
+    <section id="about" class="section section-about reveal-on-scroll">
+      <!-- Subtle Decorative Background Gradients -->
+      <div class="about-bg-decor-1"></div>
+      <div class="about-bg-decor-2"></div>
+      
+      <div class="container" style="position: relative; z-index: 2;">
+        
+        <div class="section-header">
+          <div class="badge badge-blue" style="margin-bottom: 14px;">About Inspire Foundation</div>
+          <h2 class="section-title">Building Strong Academic Foundations</h2>
+          <p class="section-subtitle">
+            Building strong conceptual foundations, analytical thinking, and competitive problem-solving skills from early school years.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Left Column: Primary Content Card -->
+          <div class="about-story-col">
+            <div class="about-card-narrative">
+              <div>
+                <div class="about-pillar-tag">
+                  <span class="pillar-dot"></span>
+                  <span>A Unit of MR Groups • Estd. Excellence</span>
+                </div>
+                <h3 class="about-heading">Transforming School Classrooms into Foundation Powerhouses</h3>
+                <p class="about-paragraph">
+                  Inspire IIT &amp; NEET Foundation helps schools and students build strong conceptual foundations from Classes 6–10, preparing them for IIT-JEE, NEET and Olympiads.
+                </p>
+                <p class="about-paragraph">
+                  Get access to 40 online Foundation practice exams every year, comprehensive curriculum resources, 24×7 teacher support and continuous academic mentoring.
+                </p>
+              </div>
+
+              <div class="about-pillars-row">
+                <div class="pillar-mini-item">
+                  <div class="pillar-icon-box orange">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                  </div>
+                  <div>
+                    <h4 class="pillar-title">MR Group Publications</h4>
+                    <p class="pillar-sub">High-yield study materials &amp; curriculum.</p>
+                  </div>
+                </div>
+
+                <div class="pillar-mini-item">
+                  <div class="pillar-icon-box blue">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  </div>
+                  <div>
+                    <h4 class="pillar-title">24×7 Teaching Aid Cell</h4>
+                    <p class="pillar-sub">Expert academic support for partner schools.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Four Symmetrical Statistics Cards -->
+          <div class="about-stats-col">
+            <div class="stats-card-grid">
+              
+              <!-- Stat Card 1 -->
+              <div class="stat-box-modern">
+                <div class="stat-icon-wrap orange">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <div class="stat-number-bold"><span class="stat-counter" data-target="40">40</span> <span class="stat-unit">Exams</span></div>
+                <div class="stat-label-text">Annual Online Practice Tests for Classes 6–10</div>
+              </div>
+
+              <!-- Stat Card 2 -->
+              <div class="stat-box-modern">
+                <div class="stat-icon-wrap blue">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+                </div>
+                <div class="stat-number-bold"><span class="stat-counter" data-target="1200">1,200</span><span class="stat-plus">+</span></div>
+                <div class="stat-label-text">HD Video Lessons Across Physics, Chem, Math &amp; Bio</div>
+              </div>
+
+              <!-- Stat Card 3 -->
+              <div class="stat-box-modern">
+                <div class="stat-icon-wrap green">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div class="stat-number-bold"><span class="stat-counter" data-target="50000">50,000</span><span class="stat-plus">+</span></div>
+                <div class="stat-label-text">Curated Question Bank with Instant Explanations</div>
+              </div>
+
+              <!-- Stat Card 4 -->
+              <div class="stat-box-modern">
+                <div class="stat-icon-wrap navy">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </div>
+                <div class="stat-number-bold"><span class="stat-counter" data-target="100">100</span><span class="stat-plus">+</span></div>
+                <div class="stat-label-text">e-Techno &amp; Partner Schools Across AP &amp; Telangana</div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION: WHY CHOOSE INSPIRE? (3-COLUMN CENTER HERO SHOWCASE)
+         ====================================================================== -->
+    <section id="why-us" class="section section-why-us reveal-on-scroll">
+      <!-- Subtle Decorative Background Watermark & Glow -->
+      <div class="why-bg-watermark">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="why-watermark-svg">
+          <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(2, 84, 184, 0.035)" stroke-width="8" stroke-dasharray="12 12"/>
+          <circle cx="100" cy="100" r="50" fill="none" stroke="rgba(243, 111, 33, 0.03)" stroke-width="6"/>
+          <circle cx="100" cy="100" r="20" fill="none" stroke="rgba(2, 84, 184, 0.025)" stroke-width="4"/>
+        </svg>
+      </div>
+
+      <div class="container" style="position: relative; z-index: 2;">
+        
+        <div class="section-header section-header-compact">
+          <div class="badge badge-orange" style="margin-bottom: 12px;">The Inspire Advantage</div>
+          <h2 class="section-title">Why Choose Inspire?</h2>
+          <p class="section-subtitle">
+            A stronger foundation for students, stronger support for teachers, and smarter outcomes for schools.
+          </p>
+        </div>
+
+        <div class="why-center-showcase-grid">
+          
+          <!-- Left Column (3 Features) -->
+          <div class="why-side-col why-left-col">
+            
+            <!-- Feature 1 -->
+            <div class="why-feature-item">
+              <div class="why-feature-icon-wrap orange">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <h3 class="why-feature-title">40 Annual Practice Exams</h3>
+              <p class="why-feature-desc">
+                40 annual online IIT &amp; NEET Foundation practice exams for Classes 6–10 with instant automated scorecards.
+              </p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="why-feature-item">
+              <div class="why-feature-icon-wrap blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="why-feature-title">24×7 Professional Teaching Support</h3>
+              <p class="why-feature-desc">
+                Committed subject matter experts providing 24×7 teaching aids, lesson plans, and classroom guidance to school faculty.
+              </p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="why-feature-item">
+              <div class="why-feature-icon-wrap green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+              <h3 class="why-feature-title">Flagship FACE &amp; DELTA Programmes</h3>
+              <p class="why-feature-desc">
+                Structured programmes including FACE Adv. Regular (VI–X) and DELTA Integrated (VI–XII) mapped to national exam standards.
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Center Column (Hero Image with Offset Backdrop Frame) -->
+          <div class="why-center-col">
+            <div class="why-center-image-frame">
+              <div class="why-image-backdrop-card"></div>
+              <div class="why-center-image-container">
+                <img src="assets/why-inspire-students.jpg" alt="Indian students studying IIT-JEE and NEET foundation physics and digital tablet in classroom library" class="why-center-img" loading="lazy">
+                <div class="why-image-bottom-badge">
+                  <span class="badge-dot"></span>
+                  <span>100+ Partner Schools Across AP &amp; Telangana</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column (3 Features) -->
+          <div class="why-side-col why-right-col">
+
+            <!-- Feature 4 -->
+            <div class="why-feature-item">
+              <div class="why-feature-icon-wrap navy">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+              <h3 class="why-feature-title">Online Notifications &amp; Results</h3>
+              <p class="why-feature-desc">
+                Automated exam alerts, syllabus instructions, and real-time result publishing with rank analytics for schools &amp; parents.
+              </p>
+            </div>
+
+            <!-- Feature 5 -->
+            <div class="why-feature-item">
+              <div class="why-feature-icon-wrap orange">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <h3 class="why-feature-title">Web Portal &amp; Android App</h3>
+              <p class="why-feature-desc">
+                Multi-device digital platform for video lessons, live lectures, practice exams, and doubt resolution on web or mobile.
+              </p>
+            </div>
+
+            <!-- Feature 6 -->
+            <div class="why-feature-item">
+              <div class="why-feature-icon-wrap blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <h3 class="why-feature-title">Trusted by e-Techno &amp; Concept Schools</h3>
+              <p class="why-feature-desc">
+                Partnering with leading corporate and non-corporate institutions across AP, Telangana, and India for proven rank outcomes.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 2 — WHAT IS INSPIRE? (RICH CARD VISUALS)
+         ====================================================================== -->
+    <section id="platform" class="section reveal-on-scroll">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="badge badge-blue" style="margin-bottom: 14px;">Connected Platform</div>
+          <h2 class="section-title">Learning, Teaching and Academic Progress — Together in One Place</h2>
+          <p class="section-subtitle">
+            At Inspire, we bring learning videos, online classes, assessments, student progress, and academic management together.
+          </p>
+        </div>
+
+        <div class="what-is-inspire-grid">
+          
+          <!-- Students Card with Image -->
+          <div class="what-card card-role-students">
+            <div class="what-card-img-box">
+              <img src="assets/card-students.jpg" alt="Student studying with digital notes" class="what-card-img" loading="lazy">
+            </div>
+            <div class="what-card-content">
+              <div class="what-icon-wrapper orange">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <span class="what-card-role">Students</span>
+              <h3 class="what-card-title">Students get a simpler way to learn.</h3>
+              <a href="#for-students" class="what-card-action-link text-orange" data-role-target="students">
+                <span>Explore for Students</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Teachers Card with Image -->
+          <div class="what-card card-role-teachers">
+            <div class="what-card-img-box">
+              <img src="assets/card-teachers.jpg" alt="Teacher instructing in smart classroom" class="what-card-img" loading="lazy">
+            </div>
+            <div class="what-card-content">
+              <div class="what-icon-wrapper blue">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <span class="what-card-role" style="color: var(--color-primary);">Teachers</span>
+              <h3 class="what-card-title">Teachers get better visibility into their classes.</h3>
+              <a href="#for-teachers" class="what-card-action-link text-blue" data-role-target="teachers">
+                <span>Explore for Teachers</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Schools Card with Image -->
+          <div class="what-card card-role-schools">
+            <div class="what-card-img-box">
+              <img src="assets/card-schools.jpg" alt="Modern educational school campus" class="what-card-img" loading="lazy">
+            </div>
+            <div class="what-card-content">
+              <div class="what-icon-wrapper navy">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+              </div>
+              <span class="what-card-role" style="color: var(--color-primary-dark);">Schools</span>
+              <h3 class="what-card-title">Schools get a clearer view of academic activity.</h3>
+              <a href="#for-schools" class="what-card-action-link text-dark-blue" data-role-target="schools">
+                <span>Explore for Schools</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3 — WHAT YOU CAN DO ON INSPIRE (INTERACTIVE SHOWCASE)
+         ====================================================================== -->
+    <section id="features" class="section reveal-on-scroll">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="badge badge-orange" style="margin-bottom: 14px;">Platform Capabilities</div>
+          <h2 class="section-title">Everything You Need for Everyday Learning</h2>
+        </div>
+
+        <div class="feature-showcase-layout">
+          
+          <!-- Left: Vertical Feature Selector -->
+          <div class="feature-nav-list">
+            
+            <div class="feature-nav-item active" data-feature="video">
+              <span class="feature-item-num">01</span>
+              <div>
+                <h3 class="feature-item-title">Video Learning</h3>
+                <p class="feature-item-desc">Learn through videos organised by class, subject, chapter, and topic.</p>
+              </div>
+            </div>
+
+            <div class="feature-nav-item" data-feature="classes">
+              <span class="feature-item-num">02</span>
+              <div>
+                <h3 class="feature-item-title">Online Classes</h3>
+                <p class="feature-item-desc">View upcoming classes, receive reminders, and join sessions easily.</p>
+              </div>
+            </div>
+
+            <div class="feature-nav-item" data-feature="assessments">
+              <span class="feature-item-num">03</span>
+              <div>
+                <h3 class="feature-item-title">Assessments</h3>
+                <p class="feature-item-desc">IIT Foundation students can take mock tests and online assessments.</p>
+              </div>
+            </div>
+
+            <div class="feature-nav-item" data-feature="results">
+              <span class="feature-item-num">04</span>
+              <div>
+                <h3 class="feature-item-title">Results & Performance</h3>
+                <p class="feature-item-desc">Track scores, accuracy, progress, strong areas, and areas that need attention.</p>
+              </div>
+            </div>
+
+            <div class="feature-nav-item" data-feature="recommendations">
+              <span class="feature-item-num">05</span>
+              <div>
+                <h3 class="feature-item-title">Smart Recommendations</h3>
+                <p class="feature-item-desc">Get learning suggestions based on performance and activity.</p>
+              </div>
+            </div>
+
+            <div class="feature-nav-item" data-feature="aidoubt">
+              <span class="feature-item-num">06</span>
+              <div>
+                <h3 class="feature-item-title">AI Doubt Support</h3>
+                <p class="feature-item-desc">IIT Foundation students can ask academic questions and get AI-assisted support.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: Morphing Product Visualization Screen -->
+          <div class="feature-display-screen">
+            
+            <!-- View 1: Video Learning -->
+            <div class="feature-panel-view active" id="feature-view-video">
+              <div class="feature-mock-header">
+                <div class="feature-mock-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+                <div>
+                  <div class="feature-mock-title">Video Learning</div>
+                  <div class="feature-mock-subtitle">Organised by Class, Subject, Chapter, and Topic</div>
+                </div>
+              </div>
+
+              <div class="feature-mock-body">
+                <!-- Video Player Card with Topic Image & Login Navigation -->
+                <div class="mock-video-player" id="feature-video-player" onclick="window.location.href='login.html'">
+                  <div class="mock-video-bg-img" style="background-image: url('assets/physics-video-thumbnail.jpg');"></div>
+                  <div class="mock-video-overlay"></div>
+                  <div class="mock-video-meta">
+                    <span class="mock-badge-tag">Class 10 • Physics</span>
+                    <span class="mock-video-time">18:45</span>
+                  </div>
+                  <div class="mock-video-play-center">
+                    <a href="login.html" class="mock-play-btn" id="feature-video-play-btn" title="Login to Watch Lesson">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+                    </a>
+                  </div>
+                  <div class="mock-video-bottom">
+                    <div class="mock-lesson-title">Chapter 4: Laws of Motion • Topic 2: Newton's Second Law</div>
+                    <div class="mock-progress-bar"><div class="mock-progress-fill" style="width: 75%;"></div></div>
+                  </div>
+                </div>
+
+                <!-- Structured Playlist -->
+                <div class="mock-playlist-stack">
+                  <div class="mock-playlist-item active">
+                    <div class="mock-play-dot done">✓</div>
+                    <div class="mock-item-text">Topic 1: Inertia & Momentum (Completed)</div>
+                    <span class="mock-time-pill">12:30</span>
+                  </div>
+                  <div class="mock-playlist-item">
+                    <div class="mock-play-dot active">▶</div>
+                    <div class="mock-item-text">Topic 2: Newton's Second Law (In Progress)</div>
+                    <span class="mock-time-pill">18:45</span>
+                  </div>
+                  <div class="mock-playlist-item">
+                    <div class="mock-play-dot">⏭</div>
+                    <div class="mock-item-text">Topic 3: Action-Reaction Pairs (Next Lesson)</div>
+                    <span class="mock-time-pill">14:20</span>
+                  </div>
+                </div>
+
+                <div class="mock-panel-footer">
+                  <div class="mock-footer-pill"><span class="status-dot-pulse"></span> 45 Video Chapters Active</div>
+                  <div class="mock-footer-stat">Syllabus Progress: <strong>75%</strong></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- View 2: Online Classes -->
+            <div class="feature-panel-view" id="feature-view-classes">
+              <div class="feature-mock-header">
+                <div class="feature-mock-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                </div>
+                <div>
+                  <div class="feature-mock-title">Online Classes</div>
+                  <div class="feature-mock-subtitle">Upcoming classes, reminders, and easy joining</div>
+                </div>
+              </div>
+
+              <div class="feature-mock-body">
+                <div class="mock-class-card">
+                  <div class="mock-class-top">
+                    <span class="mock-live-pulse-badge"><span class="status-dot-pulse"></span> SCHEDULED TODAY</span>
+                    <span class="mock-time-tag">11:30 AM – 12:45 PM</span>
+                  </div>
+                  <div class="mock-class-heading">IIT Foundation Physics — Kinematics & Mechanics</div>
+                  <div class="mock-faculty-info">
+                    <div class="avatar-circle" style="width: 28px; height: 28px; font-size: 0.7rem;">IN</div>
+                    <span>Senior Faculty • Inspire IIT Foundation</span>
+                  </div>
+                  <div class="mock-class-actions">
+                    <button class="btn btn-primary btn-sm" style="flex: 1;" data-action="login">Join Live Class</button>
+                    <button class="btn btn-secondary btn-sm" style="flex: 1;">Set Reminder</button>
+                  </div>
+                </div>
+
+                <div class="mock-playlist-item" style="margin-top: 6px;">
+                  <div class="mock-play-dot">📅</div>
+                  <div class="mock-item-text">Tomorrow, 10:00 AM • Chemistry: Chemical Bonding</div>
+                  <span class="badge badge-blue" style="font-size: 0.65rem;">Reminder On</span>
+                </div>
+
+                <div class="mock-panel-footer">
+                  <div class="mock-footer-pill"><span class="status-dot-pulse"></span> Live Interactive Classroom</div>
+                  <div class="mock-footer-stat">Next Class: <strong>11:30 AM</strong></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- View 3: Assessments -->
+            <div class="feature-panel-view" id="feature-view-assessments">
+              <div class="feature-mock-header">
+                <div class="feature-mock-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                </div>
+                <div>
+                  <div class="feature-mock-title">Assessments</div>
+                  <div class="feature-mock-subtitle">IIT Foundation mock tests & online assessments</div>
+                </div>
+              </div>
+
+              <div class="feature-mock-body">
+                <div class="mock-assessment-card">
+                  <div class="mock-assessment-top">
+                    <span style="font-size: 0.78rem; font-weight: 800; color: var(--color-primary-dark);">IIT Foundation Mock Test 04</span>
+                    <span class="mock-timer-pill">⏱️ 58:20 Left</span>
+                  </div>
+
+                  <!-- Question Progress Chips -->
+                  <div class="mock-question-pills">
+                    <span class="q-pill done">1</span>
+                    <span class="q-pill done">2</span>
+                    <span class="q-pill current">3</span>
+                    <span class="q-pill">4</span>
+                    <span class="q-pill">5</span>
+                    <span class="q-pill">6</span>
+                    <span class="q-pill">7</span>
+                    <span class="q-pill">8</span>
+                  </div>
+
+                  <!-- Question Content -->
+                  <div class="mock-q-box">
+                    <div class="mock-q-title">Q3. What is the acceleration of a 5 kg mass under a net horizontal force of 20 N?</div>
+                    <div class="mock-options-grid">
+                      <div class="mock-option-row"><span>A) 2 m/s²</span></div>
+                      <div class="mock-option-row selected"><span>B) 4 m/s² (Selected)</span> <span style="color: var(--color-orange);">✓</span></div>
+                      <div class="mock-option-row"><span>C) 5 m/s²</span></div>
+                      <div class="mock-option-row"><span>D) 10 m/s²</span></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mock-panel-footer">
+                  <div class="mock-footer-pill"><span class="status-dot-pulse"></span> Mock Test 04 in Progress</div>
+                  <div class="mock-footer-stat">Attempted: <strong>3/8 Questions</strong></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- View 4: Results & Performance -->
+            <div class="feature-panel-view" id="feature-view-results">
+              <div class="feature-mock-header">
+                <div class="feature-mock-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <div>
+                  <div class="feature-mock-title">Results & Performance</div>
+                  <div class="feature-mock-subtitle">Scores, accuracy, progress, strong areas & focus areas</div>
+                </div>
+              </div>
+
+              <div class="feature-mock-body">
+                <div class="mock-analytics-card">
+                  <!-- Top Metrics -->
+                  <div class="mock-stat-metrics-grid">
+                    <div class="mock-stat-box">
+                      <div class="mock-stat-val">92%</div>
+                      <div class="mock-stat-lbl">Overall Score</div>
+                    </div>
+                    <div class="mock-stat-box">
+                      <div class="mock-stat-val text-orange">88%</div>
+                      <div class="mock-stat-lbl">Accuracy Rate</div>
+                    </div>
+                    <div class="mock-stat-box">
+                      <div class="mock-stat-val text-blue">Top 5%</div>
+                      <div class="mock-stat-lbl">Class Percentile</div>
+                    </div>
+                  </div>
+
+                  <!-- Subject Accuracy Breakdown -->
+                  <div class="mock-subject-breakdown">
+                    <div class="mock-subject-row">
+                      <div class="mock-subj-head"><span>Physics</span><span class="mock-subj-score">94% • Strong Area</span></div>
+                      <div class="mock-progress-bar"><div class="mock-progress-fill" style="width: 94%;"></div></div>
+                    </div>
+                    <div class="mock-subject-row">
+                      <div class="mock-subj-head"><span>Chemistry</span><span class="mock-subj-score">90% • Strong Area</span></div>
+                      <div class="mock-progress-bar"><div class="mock-progress-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="mock-subject-row">
+                      <div class="mock-subj-head"><span>Mathematics</span><span class="mock-subj-score" style="color: var(--color-orange);">82% • Needs Attention</span></div>
+                      <div class="mock-progress-bar"><div class="mock-progress-fill" style="width: 82%; background: var(--color-orange);"></div></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mock-panel-footer">
+                  <div class="mock-footer-pill"><span class="status-dot-pulse"></span> Analytics Engine Active</div>
+                  <div class="mock-footer-stat">Benchmark: <strong>Top 5%</strong></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- View 5: Smart Recommendations -->
+            <div class="feature-panel-view" id="feature-view-recommendations">
+              <div class="feature-mock-header">
+                <div class="feature-mock-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg>
+                </div>
+                <div>
+                  <div class="feature-mock-title">Smart Recommendations</div>
+                  <div class="feature-mock-subtitle">Learning suggestions based on performance and activity</div>
+                </div>
+              </div>
+
+              <div class="feature-mock-body">
+                <div class="mock-recommendations-stack">
+                  <div class="mock-recom-card highlight-orange">
+                    <div class="mock-recom-icon">💡</div>
+                    <div class="mock-recom-content">
+                      <div class="mock-recom-title">Targeted Practice: Quadratic Equations & Vectors</div>
+                      <div class="mock-recom-desc">Recommended 15 practice questions based on recent assessment accuracy.</div>
+                    </div>
+                    <span class="badge badge-orange" style="font-size: 0.65rem;">Recommended</span>
+                  </div>
+
+                  <div class="mock-recom-card">
+                    <div class="mock-recom-icon">📖</div>
+                    <div class="mock-recom-content">
+                      <div class="mock-recom-title">Quick Revision: Chemical Bonding Video Lesson</div>
+                      <div class="mock-recom-desc">12-minute core concept refresher to prepare for upcoming mock test.</div>
+                    </div>
+                    <span class="badge badge-blue" style="font-size: 0.65rem;">Concept</span>
+                  </div>
+
+                  <div class="mock-recom-card">
+                    <div class="mock-recom-icon">🎯</div>
+                    <div class="mock-recom-content">
+                      <div class="mock-recom-title">Weekly Milestone: Take Practice Mock Test</div>
+                      <div class="mock-recom-desc">Review progress analytics and test mastery of current topics.</div>
+                    </div>
+                    <span class="badge badge-orange" style="font-size: 0.65rem;">Milestone</span>
+                  </div>
+                </div>
+
+                <div class="mock-panel-footer">
+                  <div class="mock-footer-pill"><span class="status-dot-pulse"></span> Adaptive Recommendations</div>
+                  <div class="mock-footer-stat">Updated: <strong>Live</strong></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- View 6: AI Doubt Support -->
+            <div class="feature-panel-view" id="feature-view-aidoubt">
+              <div class="feature-mock-header">
+                <div class="feature-mock-icon" style="background: var(--color-orange-light); color: var(--color-orange);">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <div>
+                  <div class="feature-mock-title">AI Doubt Support</div>
+                  <div class="feature-mock-subtitle">IIT Foundation academic questions with AI assistance</div>
+                </div>
+              </div>
+
+              <div class="feature-mock-body">
+                <div class="mock-chat-container">
+                  <!-- User Bubble -->
+                  <div class="mock-chat-bubble user">
+                    <div class="mock-bubble-text">How do I calculate normal force on an inclined plane?</div>
+                    <span class="mock-bubble-meta">Student • 10:42 AM</span>
+                  </div>
+
+                  <!-- AI Assistant Bubble -->
+                  <div class="mock-chat-bubble ai">
+                    <div class="mock-ai-header">
+                      <div class="avatar-circle" style="width: 22px; height: 22px; font-size: 0.6rem; background: var(--color-orange);">AI</div>
+                      <span style="font-weight: 800; font-size: 0.72rem; color: var(--color-orange);">Inspire AI Academic Assistant</span>
+                    </div>
+                    <div class="mock-bubble-text">
+                      On an incline at angle θ, gravity's perpendicular component gives:<br>
+                      <strong>N = m · g · cos(θ)</strong><br>
+                      Where m is mass and g is acceleration due to gravity (9.8 m/s²).
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mock-panel-footer">
+                  <div class="mock-footer-pill"><span class="status-dot-pulse"></span> AI Doubt Assistant Online</div>
+                  <div class="mock-footer-stat">Response Time: <strong>&lt; 2s</strong></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4 — BUILT FOR STUDENTS, TEACHERS & SCHOOLS (TABS)
+         ====================================================================== -->
+    <section id="for-students" class="section section-bg-alt reveal-on-scroll">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="badge badge-blue" style="margin-bottom: 14px;">Tailored Experiences</div>
+          <h2 class="section-title">One Platform. Different Experiences.</h2>
+        </div>
+
+        <!-- Role Segmented Tab Buttons -->
+        <div class="tabs-navigation-wrapper">
+          <div class="role-tabs-container" role="tablist" aria-label="Audience Role Switcher">
+            <button class="role-tab-btn active" data-tab="students" role="tab" aria-selected="true">Students</button>
+            <button class="role-tab-btn" data-tab="teachers" role="tab" aria-selected="false">Teachers</button>
+            <button class="role-tab-btn" data-tab="schools" role="tab" aria-selected="false">Schools</button>
+          </div>
+        </div>
+
+        <!-- Tab Panes Container -->
+        <div class="tab-panes-wrapper">
+          
+          <!-- TAB 1: FOR STUDENTS -->
+          <div class="tab-pane active" id="tab-students" role="tabpanel">
+            <div class="tab-content-grid">
+              
+              <div class="tab-info-col tab-photo-glass-card">
+                <img src="assets/card-students.jpg" alt="Student Studying with Digital Tablet" class="tab-bg-photo" loading="lazy">
+                <div class="tab-glass-overlay">
+                  <div class="tab-role-badge badge-orange-glass">For Students</div>
+                  <h3 class="tab-main-heading">Watch learning videos, join online classes, take assessments, view results, track progress, and get learning support.</h3>
+                  <a href="#login" class="btn btn-primary" data-action="login">Login to Inspire</a>
+                </div>
+              </div>
+
+              <!-- Student UI Mockup -->
+              <div class="tab-mockup-frame">
+                <div class="tab-mockup-header">
+                  <span class="tab-mockup-title">Student Dashboard</span>
+                  <span class="badge badge-orange" style="font-size: 0.6875rem;">Class 6 to 10</span>
+                </div>
+                <div class="tab-mockup-body">
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Video Lessons & Online Classes</div>
+                        <div class="mock-list-sub">Subject, Chapter and Topic Learning</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status orange">Learning</span>
+                  </div>
+
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Assessments & Results</div>
+                        <div class="mock-list-sub">Mock Tests and Performance Analytics</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status">Tracked</span>
+                  </div>
+
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">AI Doubt & Learning Support</div>
+                        <div class="mock-list-sub">Academic Guidance for IIT Foundation</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status orange">Available</span>
+                  </div>
+                </div>
+
+                <div class="tab-mockup-footer">
+                  <div class="mockup-footer-pill"><span class="status-dot-pulse"></span> Academic Portal Active</div>
+                  <div class="mockup-footer-stat">Sync Rate: <strong>99.4%</strong></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- TAB 2: FOR TEACHERS -->
+          <div class="tab-pane" id="tab-teachers" role="tabpanel">
+            <div class="tab-content-grid">
+              
+              <div class="tab-info-col tab-photo-glass-card">
+                <img src="assets/card-teachers.jpg" alt="Teacher in Smart Classroom" class="tab-bg-photo" loading="lazy">
+                <div class="tab-glass-overlay">
+                  <div class="tab-role-badge badge-blue-glass">For Teachers</div>
+                  <h3 class="tab-main-heading">Access resources, schedule classes, assign assessments, review results, identify weak topics, and monitor student performance.</h3>
+                  <a href="#login" class="btn btn-primary" data-action="login">Login to Inspire</a>
+                </div>
+              </div>
+
+              <!-- Teacher UI Mockup -->
+              <div class="tab-mockup-frame">
+                <div class="tab-mockup-header">
+                  <span class="tab-mockup-title">Teacher Console</span>
+                  <span class="badge badge-blue" style="font-size: 0.6875rem;">Classroom Management</span>
+                </div>
+                <div class="tab-mockup-body">
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Class Scheduling & Resources</div>
+                        <div class="mock-list-sub">Schedule Online Sessions Easily</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status">Scheduled</span>
+                  </div>
+
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Assign Assessments & Review Results</div>
+                        <div class="mock-list-sub">Monitor Student Performance</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status orange">Evaluated</span>
+                  </div>
+
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Identify Weak Topics</div>
+                        <div class="mock-list-sub">Targeted Academic Support</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status">Diagnostic</span>
+                  </div>
+                </div>
+
+                <div class="tab-mockup-footer">
+                  <div class="mockup-footer-pill"><span class="status-dot-pulse"></span> Classroom Stream Ready</div>
+                  <div class="mockup-footer-stat">Next Session: <strong>11:30 AM</strong></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- TAB 3: FOR SCHOOLS -->
+          <div class="tab-pane" id="tab-schools" role="tabpanel">
+            <div class="tab-content-grid">
+              
+              <div class="tab-info-col tab-photo-glass-card">
+                <img src="assets/card-schools.jpg" alt="Institutional Campus Overview" class="tab-bg-photo" loading="lazy">
+                <div class="tab-glass-overlay">
+                  <div class="tab-role-badge badge-navy-glass">For Schools</div>
+                  <h3 class="tab-main-heading">Manage students and teachers, monitor academic activity, view performance trends, access reports, and send announcements.</h3>
+                  <a href="#login" class="btn btn-primary" data-action="login">Login to Inspire</a>
+                </div>
+              </div>
+
+              <!-- School UI Mockup -->
+              <div class="tab-mockup-frame">
+                <div class="tab-mockup-header">
+                  <span class="tab-mockup-title">Institutional Administration</span>
+                  <span class="badge badge-blue" style="font-size: 0.6875rem;">Campus Overview</span>
+                </div>
+                <div class="tab-mockup-body">
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Manage Students & Teachers</div>
+                        <div class="mock-list-sub">Faculty & Student Directory Active</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status">Managed</span>
+                  </div>
+
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Academic Activity & Performance Trends</div>
+                        <div class="mock-list-sub">Access Institutional Reports</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status orange">Analytics</span>
+                  </div>
+
+                  <div class="mock-list-item">
+                    <div class="mock-list-left">
+                      <div class="mock-list-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div>
+                      <div>
+                        <div class="mock-list-title">Send Announcements & Circulars</div>
+                        <div class="mock-list-sub">Campus-Wide Academic Broadcast</div>
+                      </div>
+                    </div>
+                    <span class="mock-badge-status">Delivered</span>
+                  </div>
+                </div>
+
+                <div class="tab-mockup-footer">
+                  <div class="mockup-footer-pill"><span class="status-dot-pulse"></span> Campus Analytics Online</div>
+                  <div class="mockup-footer-stat">Directory: <strong>Connected</strong></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5 — PROGRAMS
+         ====================================================================== -->
+    <section id="programs" class="section reveal-on-scroll">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="badge badge-orange" style="margin-bottom: 14px;">Academic Programs</div>
+          <h2 class="section-title">Two Programs. The Right Learning Experience.</h2>
+          <p class="section-subtitle">
+            Inspire adapts the student experience based on the program they are enrolled in.
+          </p>
+        </div>
+
+        <div class="programs-grid">
+          
+          <!-- Card 1: IIT Foundation (Featured) -->
+          <div class="program-card featured-program">
+            <div class="program-featured-badge">COMPLETE LEARNING EXPERIENCE</div>
+            
+            <div class="program-header">
+              <span class="program-class-tag">Class 6 to 10</span>
+              <h3 class="program-title">IIT Foundation</h3>
+            </div>
+
+            <div class="program-features-list">
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Videos</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Online Classes</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Assessments</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Results</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Performance Analytics</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Recommendations</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>AI Doubt Support</span>
+              </div>
+            </div>
+
+            <button class="btn btn-primary" data-action="login" style="width: 100%;">Login to Inspire</button>
+          </div>
+
+          <!-- Card 2: Regular Academics -->
+          <div class="program-card">
+            
+            <div class="program-header">
+              <span class="program-class-tag" style="color: var(--color-text-muted);">Class 1 to 5</span>
+              <h3 class="program-title">Regular Academics</h3>
+            </div>
+
+            <div class="program-features-list">
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Videos</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Online Classes</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Learning Progress</span>
+              </div>
+              <div class="program-feature-item">
+                <div class="program-check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+                <span>Notifications</span>
+              </div>
+            </div>
+
+            <button class="btn btn-secondary" data-action="login" style="width: 100%;">Login to Inspire</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 6 — MOBILE APP (COMBINED PHOTOGRAPHY + PHONE MOCKUP)
+         ====================================================================== -->
+    <section id="mobile-app" class="section section-bg-light reveal-on-scroll">
+      <div class="container">
+        
+        <div class="mobile-app-grid">
+          
+          <!-- Text Content (Strict Locked Copy) -->
+          <div class="mobile-app-content">
+            <div class="badge badge-blue" style="margin-bottom: 16px;">Anytime, Anywhere</div>
+            <h2 class="section-title">Inspire, Wherever Learning Happens</h2>
+            <p class="mobile-app-desc">
+              Students and teachers can also access Inspire through the Android app.
+            </p>
+            <p class="mobile-app-subtext">
+              Learn, attend classes, take assessments, review performance, manage classes, and stay updated from mobile.
+            </p>
+
+            <div class="mobile-app-actions">
+              <a href="#login" class="btn btn-primary btn-lg" data-action="login">Login to Inspire</a>
+              <div class="android-app-pill">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.551 0 .9993.4482.9993.9993.0001.5511-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993 0 .5511-.4482.9997-.9993.9997m11.4045-6.02l1.996-3.4572c.156-.2704.063-.6158-.207-.7718-.271-.156-.616-.063-.772.207l-2.023 3.5042C15.353 8.163 13.722 7.784 12 7.784c-1.722 0-3.353.379-4.877 1.0206L5.1 5.3004c-.156-.27-.501-.363-.772-.207-.27.156-.363.5014-.207.7718L6.117 9.322C2.696 11.233 0 14.862 0 19.123h24c0-4.261-2.696-7.89-6.1185-9.8016"/></svg>
+                <div>
+                  <span class="android-sub">AVAILABLE ON</span>
+                  <span class="android-main">Android App</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Smartphone CSS Mockup with Floating Feature Badges (Option 1) -->
+          <div class="mobile-stage-wrapper">
+            
+            <!-- Glowing Brand Aura -->
+            <div class="phone-glow-aura"></div>
+
+            <!-- Floating Feature Badge 1 (Top-Left) -->
+            <div class="floating-phone-badge badge-top-left">
+              <div class="phone-badge-icon icon-orange">⚡</div>
+              <div class="phone-badge-content">
+                <span class="phone-badge-title">Instant Alerts</span>
+                <span class="phone-badge-sub">Live class reminders</span>
+              </div>
+            </div>
+
+            <!-- Floating Feature Badge 2 (Mid-Right) -->
+            <div class="floating-phone-badge badge-mid-right">
+              <div class="phone-badge-icon icon-blue">📱</div>
+              <div class="phone-badge-content">
+                <span class="phone-badge-title">Pocket Learning</span>
+                <span class="phone-badge-sub">Watch videos anywhere</span>
+              </div>
+            </div>
+
+            <!-- Floating Feature Badge 3 (Bottom-Left) -->
+            <div class="floating-phone-badge badge-bottom-left">
+              <div class="phone-badge-icon icon-navy">📊</div>
+              <div class="phone-badge-content">
+                <span class="phone-badge-title">Real-Time Sync</span>
+                <span class="phone-badge-sub">Track test scores live</span>
+              </div>
+            </div>
+
+            <!-- Foreground Floating Smartphone Mockup -->
+            <div class="phone-mockup">
+              <div class="phone-screen">
+                
+                <!-- Phone Top Notch -->
+                <div class="phone-notch">
+                  <div class="speaker-grille"></div>
+                  <div class="camera-lens"></div>
+                </div>
+
+                <!-- Phone App UI Screen -->
+                <div class="phone-inner-content">
+                  <div class="phone-app-header">
+                    <img src="assets/logo.png" alt="Inspire Logo" class="phone-app-logo">
+                    <span style="font-size: 0.6875rem; font-weight: 700; color: var(--color-primary);">Online</span>
+                  </div>
+
+                  <div class="phone-banner-card">
+                    <div class="phone-banner-tag">IIT Foundation</div>
+                    <div class="phone-banner-title">Online Learning & Classes</div>
+                    <div style="font-size: 0.6875rem; opacity: 0.9; margin-top: 2px;">Class Session & Reminders</div>
+                  </div>
+
+                  <div class="phone-sub-card">
+                    <div style="width: 26px; height: 26px; border-radius: 6px; background: var(--color-orange-light); color: var(--color-orange); display: flex; align-items: center; justify-content: center;">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                    </div>
+                    <div>
+                      <div style="font-size: 0.72rem; font-weight: 700; color: var(--color-text-main);">Assessments & Results</div>
+                      <div style="font-size: 0.625rem; color: var(--color-text-muted);">Performance & Progress</div>
+                    </div>
+                  </div>
+
+                  <div class="phone-sub-card">
+                    <div style="width: 26px; height: 26px; border-radius: 6px; background: var(--color-primary-light); color: var(--color-primary); display: flex; align-items: center; justify-content: center;">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    </div>
+                    <div>
+                      <div style="font-size: 0.72rem; font-weight: 700; color: var(--color-text-main);">Video Learning</div>
+                      <div style="font-size: 0.625rem; color: var(--color-text-muted);">Organised Videos Available</div>
+                    </div>
+                  </div>
+
+                  <div class="phone-sub-card">
+                    <div style="width: 26px; height: 26px; border-radius: 6px; background: var(--color-orange-light); color: var(--color-orange); display: flex; align-items: center; justify-content: center;">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <div>
+                      <div style="font-size: 0.72rem; font-weight: 700; color: var(--color-text-main);">AI Doubt Support</div>
+                      <div style="font-size: 0.625rem; color: var(--color-text-muted);">Ask Academic Questions</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Phone Bottom Navigation Bar -->
+                <div class="phone-bottom-nav">
+                  <div class="phone-nav-icon active">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                    <span>Home</span>
+                  </div>
+                  <div class="phone-nav-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    <span>Videos</span>
+                  </div>
+                  <div class="phone-nav-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+                    <span>Tests</span>
+                  </div>
+                  <div class="phone-nav-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                    <span>Profile</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 7 — FINAL CTA (ATMOSPHERIC BACKGROUND IMAGE)
+         ====================================================================== -->
+    <section class="final-cta-section reveal-on-scroll">
+      <div class="final-cta-glow-1"></div>
+      <div class="final-cta-glow-2"></div>
+      
+      <div class="container">
+        <div class="final-cta-content">
+          <h2 class="final-cta-title">Continue Your Learning with Inspire</h2>
+          <p class="final-cta-subtitle">
+            Your classes, lessons, assessments, results, and academic progress — all connected in one place.
+          </p>
+          <div class="final-cta-btn-wrapper">
+            <a href="#login" class="btn btn-primary btn-lg" data-action="login">Login to Inspire</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       SECTION 8 — FOOTER
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Brand Column -->
+        <div class="footer-brand-col">
+          <div class="footer-logo-box">
+            <img src="assets/logo.png" alt="Inspire IIT-JEE & NEET Foundation" class="footer-logo-img">
+          </div>
+          <div class="footer-brand-title">Inspire IIT-JEE & NEET Foundation</div>
+          <div class="footer-brand-subtitle">(A Unit of MR Groups)</div>
+        </div>
+
+        <!-- Contact Column -->
+        <div>
+          <div class="footer-col-heading">Contact</div>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="tel:+919704801457">+91 9704801457</a></li>
+            <li class="footer-list-item"><a href="tel:+919121441475">+91 9121441475</a></li>
+            <li class="footer-list-item"><a href="mailto:inspireiitfoundation@gmail.com">inspireiitfoundation@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <!-- Hyderabad Location Column -->
+        <div>
+          <div class="footer-col-heading">Hyderabad</div>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              G-4, VIP Hills,<br>
+              Jaihind Enclave, Madhapur,<br>
+              Hyderabad – 500081
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hanamkonda Location Column -->
+        <div>
+          <div class="footer-col-heading">Hanamkonda</div>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              Door No: 1-7-885/10/5,<br>
+              Nandi Hills Road, Hunter Road,<br>
+              Hanamkonda,<br>
+              Telangana – 506001
+            </li>
+          </ul>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div>
+          <div class="footer-col-heading">Quick Links</div>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="#home">Home</a></li>
+            <li class="footer-list-item"><a href="#about">About Us</a></li>
+            <li class="footer-list-item"><a href="#why-us">Why Us</a></li>
+            <li class="footer-list-item"><a href="#for-students">Students</a></li>
+            <li class="footer-list-item"><a href="#for-teachers">Teachers</a></li>
+            <li class="footer-list-item"><a href="#for-schools">Schools</a></li>
+            <li class="footer-list-item"><a href="#login" data-action="login">Login</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>© Inspire IIT & NEET Foundation. All Rights Reserved.</div>
+        <div>Official Portal: <a href="https://www.inspireiit.com/" target="_blank" rel="noopener noreferrer" style="color: var(--color-orange);">www.inspireiit.com</a></div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       PORTAL ACCESS / LOGIN MODAL DIALOG (CONFIGURABLE)
+       ====================================================================== -->
+  <div id="login-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" data-close-modal aria-label="Close modal">&times;</button>
+      
+      <div class="modal-icon-header">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+      </div>
+      
+      <h3 id="modal-title" class="modal-title">Inspire Portal Access</h3>
+      <p class="modal-message">
+        The official Inspire academic login portal endpoint is currently being configured. You can visit the official website or connect with our support team directly.
+      </p>
+
+      <div class="modal-actions">
+        <a href="https://www.inspireiit.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width: 100%;">Visit www.inspireiit.com</a>
+        <a href="mailto:inspireiitfoundation@gmail.com" class="btn btn-secondary" style="width: 100%;">Contact Academic Support</a>
+        <button class="btn btn-sm" data-close-modal style="color: var(--color-text-muted); margin-top: 6px;">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
