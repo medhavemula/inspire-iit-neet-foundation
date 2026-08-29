@@ -2,6 +2,8 @@
 
 A modern, responsive, high-performance single-page EdTech SaaS landing page built from scratch with semantic **HTML5**, **CSS3**, and vanilla **JavaScript**.
 
+**Created & Maintained by:** [Medha Vemula](https://github.com/medhavemula)
+
 ---
 
 ## 🎨 Brand Identity & Color Tokens
