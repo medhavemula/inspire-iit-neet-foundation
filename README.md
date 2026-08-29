@@ -2,6 +2,8 @@
 
 A modern, responsive, high-performance single-page EdTech SaaS landing page built from scratch with semantic **HTML5**, **CSS3**, and vanilla **JavaScript**.
 
+🌐 **Live Website Demo:** **[https://medhavemula.github.io/inspire-iit-neet-foundation/](https://medhavemula.github.io/inspire-iit-neet-foundation/)**
+
 **Created & Maintained by:** [Medha Vemula](https://github.com/medhavemula)
 
 ---
